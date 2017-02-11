@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -13,8 +14,8 @@ import { SourceTreeComponent } from './source-tree/source-tree.component';
         MainWindowComponent,
         SourceTreeComponent
     ],
-    imports: [BrowserModule],
-    bootstrap: [AppComponent]
+    imports: [BrowserModule, RouterModule],
+    bootstrap: [AppComponent] 
 })
 export class AppModule {
 

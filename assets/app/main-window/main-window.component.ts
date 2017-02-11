@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 //import {SourceTreeComponent} from './source-tree/source-tree.component';
 
 @Component({
